@@ -1,0 +1,2 @@
+# JSCoursesSoftUni
+exercices
