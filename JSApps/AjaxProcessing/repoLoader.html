@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Repo loader</title>
+</head>
+<body>
+<button onclick="loadRepos()">Load Repos</button>
+<div id="res"></div>
+<script>
+    function loadRepos(){
+        let req = new XMLHttpRequest();//tva e zaiavkata
+        req.addEventListener('load', function(){
+            console.log('Curr state: ' + req.readyState);
+
+                let repos = JSON.parse(req.responseText);
+                let output = document.getElementById("res");
+                output.innerHTML = '<ul>';
+                for(let repo of repos){
+                   output.innerHTML += `<li>${(repo.name)}</li>`;
+                }
+                output.innerHTML += '</ul>';
+
+        });
+        req.open("GET", "https://api.github.com/users/mirmeleon/repos", true);
+        req.send();
+    }
+</script>
+</body>
+</html>
