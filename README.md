@@ -1,2 +1,2 @@
 # JSCoursesSoftUni
-exercices
+exercices from JS module
