@@ -1,5 +1,5 @@
 function  startApp(){
-
+//razshirenata version e po-gotina, tuka hubavoto e tablicata
     const baseUrl = 'https://baas.kinvey.com/';
     const appKey = 'kid_HJ-leh-vb';
     const appSecret = '7fed1499535f4bb6a8fef157ff031112';
@@ -77,6 +77,7 @@ function  startApp(){
 
          if(ads.length === 0){
            $('#titleForm').text('No ads to display!');
+           return;
        } else {
            let adsTable = $('#ads').find('table');
 
@@ -93,32 +94,43 @@ function  startApp(){
 
            );
 
-          for(let row of ads){
+          for(let ad of ads) {
 
-              let deleteBtn = $('<a href="#">[Delete]</a>').click(() => deleteAd(row._id));
-              let  editBtn = $('<a href="#">[Edit]</a>').click(() => openEditAd(row));
+              appendAdRow(ad, adsTable);
+          }
 
 
-               let tr = $('<tr>');
-                  tr.append(
-                   $('<td>').text(row.title),
-                   $('<td>').text(row.publisher),
-                   $('<td>').text(row.description),
-                   $('<td>').text(Number(row.price).toFixed(2)),
-                   $('<td>').text(row.date),
-                   $('<td>').text(row.imageUrl),
-               );
+             function appendAdRow(ad, adsTable) {
+                 let links = [];
+                 if(ad._acl.creator === localStorage['userId']) {
+                     let deleteLink = $('<a href="#">[Delete]</a>').click(function () {
+                         deleteAd(ad);
+                     });
+                     let editLink = $('<a href="#">[Edit]</a>').click(function () {
+                         openEditAd(ad);
+                     });
 
-               if(row._acl.creator === localStorage.getItem('userId')){
-                   let td = $(`<td>`);
-                   td.append(deleteBtn);
-                   td.append(editBtn);
+                     links = [deleteLink, ' ', editLink];
+                 }
 
-                   tr.append(td);
-               }
-                adsTable.append(tr);
+                 let readMoreLink = $('<a href="#">[Read More]</a>').click(function () {
+                     displayAdDetails(ad);
+                 });
 
-           }
+                 links.unshift(' ');
+                 links.unshift(readMoreLink);
+
+                 adsTable.append($('<tr>')
+                     .append($('<td>').text(ad.title),
+                         $('<td>').text(ad.publisher),
+                         $('<td>').text(ad.description),
+                         $('<td>').text(ad.price),
+                         $('<td>').text(ad.date),
+                        $('<td>').text(ad.imageUrl),
+                         $('<td>').append(links)
+                     ));
+             }
+
        }
    }
 
@@ -147,9 +159,8 @@ function  startApp(){
 
     function openEditAd(ad){
       //  console.log('edited');
-        console.log(ad.publisher);
-        console.log(ad.title);
-        console.log(ad.price);
+      //  console.log(ad.publisher);
+
 
         let form = $('#formEditAd');
         form.find('input[name="title"]').val(ad.title);
@@ -220,7 +231,11 @@ function  startApp(){
 
     }
 
+    function displayAdDetails(ad){
+       console.log("ad details");
+       //todo
 
+    }
      function createAdd(event){
 
        //needed only if button is submit!
@@ -294,8 +309,6 @@ function  startApp(){
      }
 
     //USER INTERACTIONS
-
-
 
     function registerUser(event){
     // console.log('attempt to reg');

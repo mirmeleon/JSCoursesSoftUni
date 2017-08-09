@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdb20e22-421f-492d-a149-d1711dc03a7f" name="Default" comment="" />
+    <list default="true" id="fdb20e22-421f-492d-a149-d1711dc03a7f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/prodavachnik.js" afterPath="$PROJECT_DIR$/scripts/prodavachnik.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1975">
-              <caret line="106" column="65" lean-forward="true" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
+            <state relative-caret-position="142">
+              <caret line="98" column="10" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
               <folding>
                 <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -30,28 +33,18 @@
       <file leaf-file-name="prodavachnik.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/prodavachnik.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="907">
-              <caret line="464" column="5" lean-forward="true" selection-start-line="464" selection-start-column="5" selection-end-line="464" selection-end-column="5" />
+            <state relative-caret-position="25">
+              <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
               <folding>
-                <marker date="1501947409988" expanded="true" signature="3200:6345" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prodavachnik-viktor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/prodavachnik-viktor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="e#1175#2652#0" expanded="false" />
-                <element signature="n#!!block;n#register#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#deleteAd#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#openEditAd#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#editAd#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#createAdd#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#login#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#logout#0;n#!!block;n#startApp#0" expanded="false" />
-                <element signature="e#3124#3339#0" expanded="false" />
-                <marker date="1501937228283" expanded="true" signature="3826:3834" ph="..." />
-                <marker date="1501937228283" expanded="true" signature="3990:3997" ph="..." />
+                <element signature="n#!!block;n#setStorage#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#greetPerson#0;n#!!block;n#startApp#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -67,6 +60,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,11 +81,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
+    <option name="x" value="-15" />
+    <option name="y" value="20" />
+    <option name="width" value="1934" />
     <option name="height" value="1042" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -252,25 +249,26 @@
       <updated>1501833622421</updated>
       <workItem from="1501833623820" duration="26542000" />
       <workItem from="1501914365827" duration="23537000" />
+      <workItem from="1502294574200" duration="1536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50079000" />
+    <option name="totallyTimeSpent" value="51615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-15" y="20" width="1934" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -295,6 +293,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2650">
+          <caret line="106" column="65" lean-forward="true" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
+          <folding>
+            <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/prodavachnik-viktor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3175">
+          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="e#1175#2652#0" expanded="false" />
+            <element signature="n#!!block;n#register#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="e#3124#3339#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/prodavachnik.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11600">
+          <caret line="464" column="5" lean-forward="true" selection-start-line="464" selection-start-column="5" selection-end-line="464" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#deleteAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#openEditAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createAdd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#login#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#setStorage#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#greetPerson#0;n#!!block;n#startApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -308,7 +348,15 @@
         <state relative-caret-position="2950">
           <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
-            <marker date="1501947409988" expanded="true" signature="3200:6345" ph="..." />
+            <element signature="n#!!block;n#deleteAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#openEditAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createAdd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#login#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#setStorage#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#greetPerson#0;n#!!block;n#startApp#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -323,8 +371,6 @@
             <element signature="n#!!block;n#register#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="n#!!block;n#logout#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="e#3124#3339#0" expanded="false" />
-            <marker date="1501937228283" expanded="true" signature="3826:3834" ph="..." />
-            <marker date="1501937228283" expanded="true" signature="3990:3997" ph="..." />
           </folding>
         </state>
       </provider>
@@ -333,30 +379,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2225">
           <caret line="89" column="39" lean-forward="true" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/prodavachnik-viktor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="875">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="e#1175#2652#0" expanded="false" />
             <element signature="n#!!block;n#register#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="n#!!block;n#logout#0;n#!!block;n#startApp#0" expanded="false" />
             <element signature="e#3124#3339#0" expanded="false" />
-            <marker date="1501937228283" expanded="true" signature="3826:3834" ph="..." />
-            <marker date="1501937228283" expanded="true" signature="3990:3997" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="106" column="65" lean-forward="true" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
+        <state relative-caret-position="142">
+          <caret line="98" column="10" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
           <folding>
             <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -365,10 +408,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/prodavachnik.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="464" column="5" lean-forward="true" selection-start-line="464" selection-start-column="5" selection-end-line="464" selection-end-column="5" />
+        <state relative-caret-position="25">
+          <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
           <folding>
-            <marker date="1501947409988" expanded="true" signature="3200:6345" ph="..." />
+            <element signature="n#!!block;n#deleteAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#openEditAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editAd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createAdd#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#login#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#setStorage#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#greetPerson#0;n#!!block;n#startApp#0" expanded="false" />
           </folding>
         </state>
       </provider>
