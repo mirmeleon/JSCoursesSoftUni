@@ -1,0 +1,21 @@
+{
+  "name": "de",
+  "version": "1.0.0",
+  "description": "dfd",
+  "main": "index.html",
+  "scripts": {
+    "test": "sdsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "g"
+  },
+  "keywords": [
+    "g"
+  ],
+  "author": "deni",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.10"
+  }
+}

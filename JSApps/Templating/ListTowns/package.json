@@ -1,0 +1,21 @@
+{
+  "name": "exercices",
+  "version": "1.0.0",
+  "description": "sdsd",
+  "main": "towns.js",
+  "scripts": {
+    "test": "sds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "g"
+  },
+  "keywords": [
+    "tr"
+  ],
+  "author": "deni",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.10"
+  }
+}

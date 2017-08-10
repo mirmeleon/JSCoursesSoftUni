@@ -1,0 +1,21 @@
+{
+  "name": "d",
+  "version": "1.0.0",
+  "description": "sd",
+  "main": "template.js",
+  "scripts": {
+    "test": "sd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "g"
+  },
+  "keywords": [
+    "g"
+  ],
+  "author": "d",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.10"
+  }
+}

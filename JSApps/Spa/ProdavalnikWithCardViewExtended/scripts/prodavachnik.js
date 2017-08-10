@@ -6,7 +6,9 @@ function startApp() {
         "Authorization": "Basic " + btoa(kinveyAppKey + ":" + kinveyAppSecret)
     };
     const adsDiv = $('#ads');
+    
 
+    //Attach click events
 
     $('#linkHome').click(showHomeView);
     $('#linkLogin').click(showLoginView);
@@ -172,7 +174,9 @@ function startApp() {
     }
 
     function listAds() {
-        adsDiv.empty();
+       // adsDiv.empty();
+        let content = $('#content');
+        content.empty();
         showView('viewAds');
 
         $.ajax({
@@ -184,14 +188,17 @@ function startApp() {
         });
 
         function loadAdsSuccess(data) {
+            adsDiv.empty();
             showInfo('Ads loaded.');
+           // console.log(templates['catalog']);
 
             if (data.length === 0) {
                 adsDiv.append('<p>No ads in the database.</p>');
                 return;
             }
 
-            //DISPLAYNG DATA FROM DB
+            // //DISPLAYNG DATA FROM DB
+
             for (let ad of data) {
                 let html = $('<div>');
                 html.addClass('ad-box');
@@ -207,6 +214,8 @@ function startApp() {
                     editBtn.addClass('ad-control');
                     editBtn.appendTo(title);
 
+
+
                 }
 
                 html.append(title);
@@ -216,7 +225,10 @@ function startApp() {
                 html.append($('<button>Details</button>').click(() => displayAdDetails(ad)));
                 adsDiv.append(html);
 
-            }
+
+           }
+
+
         }
     }
 
@@ -296,12 +308,12 @@ function startApp() {
             }
         }
 
-        function editAd() {
+        function editAd(ad) {
             let adData = {
                 title: $('#formEditAd input[name=title]').val(),
                 description: $('#formEditAd textarea[name=description]').val(),
                 publisher: $('#formEditAd input[name=publisher]').val(),
-                date: $('#formEditAd input[name=datePublished]').val(),
+                date:  $('#formEditAd input[name=datePublished]').val(),
                 price: Number(Number($('#formEditAd input[name=price]').val()).toFixed(2)),
                 imageUrl: $('#formEditAd input[name=image]').val()
             };

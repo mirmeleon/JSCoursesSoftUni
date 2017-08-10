@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Prodavachnik</title>
     <script src="scripts/jquery-3.2.1.min.js"></script>
-    <script src="scripts/prodavachnik.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/prodavachnik.css" />
+     <link rel="stylesheet" type="text/css" href="styles/prodavachnik.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <script src="scripts/prodavachnik.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
 
 </head>
 
@@ -57,8 +58,11 @@
     </section>
 
     <section id="viewAds" class="viewAds">
-        <h1 class="titleForm">Advertisements</h1>
+
         <div id="ads" class="ads">
+
+     <h1 class="titleForm">Advertisements</h1>
+
 
         </div>
     </section>
@@ -83,6 +87,7 @@
         <form id="formEditAd" class="form">
             <div><input type="hidden" name="id" required /></div>
             <div><input type="hidden" name="publisher" required /></div>
+            <div><input type="hidden" name="datePublished" required /></div>
             <div>Title:</div>
             <div><input type="text" name="title" required /></div>
             <div>Description:</div>
@@ -101,7 +106,9 @@
    <script>
        startApp();
    </script>
+
 </main>
 <footer>Prodavachnik - Simple SPA Application</footer>
+
 </body>
 </html>
